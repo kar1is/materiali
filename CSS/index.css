@@ -1,0 +1,75 @@
+body {
+	font-family: Verdana, sans-serif;
+	background-color: var(--bg-color);
+	color: var(--font-color);
+}
+
+.main {
+	margin-left: 160px; /* Same as the width of the sidebar */
+	padding: 0px 10px;
+	font-size: 14pt;
+}
+
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 20px;
+}
+
+.sidenav a {
+	padding: 6px 8px 16px 16px;
+	text-decoration: none;
+	color: var(--font-color);
+	font-size: 16pt;
+	display: block;
+}
+
+li {
+	padding-bottom: 10px;
+}
+
+ul {
+	border-left: 5px solid #c41e3a;
+}
+
+h3 {
+	color: var(--heading-color);
+	font-weight: bold;
+}
+
+a {
+	color: var(--primary-color);
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: var(--collapsible);
+  color: var(--font-color);
+  cursor: pointer;
+  padding: 0 18px;
+  width: 100%;
+  border-style: solid;
+  border-color: var(--border-color);
+  text-align: left;
+  outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: var(--hover);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: var(--collapsible);
+  border-style: solid;
+  border-color: var(--border-color);
+}

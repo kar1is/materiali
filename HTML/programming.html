@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html onload="toggle()">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="modes.css">
+	<script src="index.js"></script>
+	<title>Materiāli</title>
+</head>
+<body onload="toggle()">
+
+	<div class="sidenav">
+		<a href="index.html">Par šo un to</a>
+		<a href="biology.html">Bioloģija</a>
+		<a href="physics.html">Fizika</a>
+		<a href="interesting.html">Interesantības</a>
+		
+		<div>
+			<img src="Figures/Sun_and_Moon.png" alt="Gaišais/tumšais režīms" style="width: 40px; padding: 6px 8px 16px 16px;" onclick="darkMode()"></img>
+		</div>
+	</div>
+	
+	<div class="main">
+		<h1>Bioloģija</h1>
+		<p>Šie materiāli varētu noderēt mācoties bioloģiju un gatavojoties olimpiādēm.</p>
+		
+		<button type="button" class="collapsible" style="color: var(--heading-color); font-weight: bold; font-size: 14pt;"><h3>Kāda ir bioloģijas olimpiāžu kārtība 2024.gadā?</h3></button>
+		<div class="content">
+			<p>Skolas var izvēlēties rīkot vai nerīkot bioloģijas olimpiādi. Tad ir novadu kārta (parasti rudens beigās), no kuras labākie dalībnieki valstī
+			tiek atlasīti uz valsts kārtu. Tad ir valsts (trešā) kārta, kas parasti notiek janvārī. Pēc valsts kārtas konkrēto grupu medaļnieki var izvēlēties,
+			vai pats piedalīsies IBO atlases kārtā, kas parasti notiek pavasara sākumā/vidū. Pēc tās labākie skolēni tiek atlasīti IBO pārstāvēt Latviju.
+			Tad parasti jūnijā ir ~2 nedēļu gatavošanās kursi, kuros var piedalīties JEBKURŠ, arī cilvēki, kas nepiedalījās atlasē. Un tad jau parasti jūlijā ir IBO.</p>
+		</div>		
+		
+		<button type="button" class="collapsible" style="color: var(--heading-color); font-weight: bold; font-size: 14pt;"><h3>Grāmatas</h3></button>
+		<div class="content">
+			<ul>
+				<li>Campbell Biology 12th edition (2020) - <a href="Books/Biology/Campbell_Biology_12th_(2021).pdf" target="_blank">Atvērt</a>
+				| <a href="Books/Biology/Campbell_Biology_12th_(2021).pdf" download>Lejupielādēt</a></li>
+				<li>Vander’s Human Physiology: The Mechanisms of Body Function 15th edition (2018) - <a href="Books/Biology/Vanders_Human_Physiology_(2018).pdf" target="_blank">Atvērt</a>
+				| <a href="Books/Biology/Vanders_Human_Physiology_(2018).pdf" download>Lejupielādēt</a></li>
+				<li>Essential Genetics and Genomics 7th edition (2018) - <a href="Books/Biology/Essential_Genetics_and_Genomics_(2018).pdf" target="_blank">Atvērt</a>
+				| <a href="Books/Biology/Essential_Genetics_and_Genomics_(2018).pdf" download>Lejupielādēt</a></li>
+				<li>Mācību priekšmetu olimpiāžu uzdevumu un to risinājumu krājums bioloģijā (2017-2020) (2021) - <a href="Books/Biology/BIO_olimp_uzd_krajums_2017-2020.pdf" target="_blank">Atvērt</a> | <a href="Books/Biology/BIO_olimp_uzd_krajums_2017-2020.pdf" download>Lejupielādēt</a></li>
+				<li style="padding-bottom: 0px">Cilvēka fizioloģija (1986) - <a href="Books/Biology/Cilveka_fiziologija_(1986).pdf" target="_blank">Atvērt</a>
+				| <a href="Books/Biology/Cilveka_fiziologija_(1986).pdf" download>Lejupielādēt</a></li>
+			</ul>
+			<h3>Kāpēc lasīt kādu no tieši šīm grāmatām?</h3>
+			<p>Campbell Biology - tā ir TĀ grāmata, lai sagatavotos olimpiādēm. Jāizlasa visiem, kas vēlās valsts olimpiādē un IBO dabūt labas lietas.
+			Lai zināšanas varētu arī vieglāk pielietot skolā u.c. iesaku ielūkoties arī bioloģijas terminu vārdnīcā (skatīt zemāk pie noderīgajām saitēm), ja 
+			nav pārliecības, ko šis termins varētu nozīmēt latviešu valodā. Grāmatā ir daudz krāsainu attēlu un shēmu, kas palīdz saprast tēmas.
+			Dzirdēju, ka katru dienu lasot var izlasīt 2 mēnešos, tātad galīgi nav traki.</p>
+			<p>Vander's Human Physiology - Campbell Biology ir laba grāmata par visu, bet tomēr kā jau cilvēkiem mums vislielākā interese ir par savu ķermeni.
+			Izņēmums nav arī olimpiādes, tādēļ šī grāmata būtu jālasa, lai padziļinātu savas zināšanas tur. Es ieteiktu pievērst uzmanību endokrīnajai sistēmai, jo
+			tā šei, manuprāt, ir aprakstīta dziļāk, plašāk un patīkamām nekā Campbell Biology.</p>
+			<p>Essential Genetics and Genomics - daudz šo grāmatu nelasīju, bet, ja ir kādas neskaidrības par ģenētiku (tai ir liela nozīme mūsdienu zinātnē), tad
+			labs materiāls, kurā ielūkoties. Ērti arī pārskriet pāri šādai specializētākai grāmatai, lai pārliecinātos, ka kāds nozīmīgs temats nebūtu palaists
+			garām vai vispār izlaists vispārīgākās grāmatās (atkal domāju Campbell).</p>
+			<p>Mācību priekšmetu olimpiāžu uzdevumu un to risinājumu krājums bioloģijā - ir arī atrodami līdzīgi krājumi citām olimpiādēm. Olimpiāžu uzdevumiem
+			vajadzētu būt pieejamiem vēl atsevišķī, un noteikti iesaku tos vispirms pildīt atsevišķi, bet šie krājumi ir patīkami tajos iekļauto RISINĀJUMU dēļ.</p>
+			<p>Cilvēka fizioloģija - noderīgāka mazākās klasēs, bet noteikti ne lieka, jo šaubos, ka ir iespējams uzreiz ielēkt kādā no lielajām grāmatām un
+			visu uzreiz saprast. To protams pārspēj Vander's Human Physiology.</p>
+		</div>
+		
+		<button type="button" class="collapsible" style="color: var(--heading-color); font-weight: bold; font-size: 14pt;"><h3>Uzdevumi no IBO atlases kārtām</h3></button>
+		<div class="content">
+			<ul>
+				<li>2023./2024.m.g. - <a href="" download>Uzdevumi</a> |
+				<a href="" download>Atbildes</a> |
+				<a href="" download>Uzdevumi ar atbildēm</a></li>
+				<li>2022./2023.m.g. - <a href="" download>Uzdevumi</a> |
+				<a href="" download>Atbildes</a> |
+				<a href="" download>Uzdevumi ar atbildēm</a></li>
+				<li style="padding-bottom: 0px">2021./2022.m.g. - <a href="" download>Uzdevumi</a> |
+				<a href="" download>Atbildes</a> |
+				<a href="" download>Uzdevumi ar atbildēm</a></li>
+			</ul>
+		</div>
+		
+		<button type="button" class="collapsible" style="color: var(--heading-color); font-weight: bold; font-size: 14pt;"><h3>IBO gatavošanās nodarbību materiāli</h3></button>
+		<div class="content">
+			<ul>
+				<li style="padding-bottom: 0px">Jap - <a href="" download>Lejupielādēt</a></li>
+			</ul>
+		</div>
+		
+		<button type="button" class="collapsible" style="color: var(--heading-color); font-weight: bold; font-size: 14pt;"><h3>Dažas noderīgas saites</h3></button>
+		<div class="content">
+			<ul>
+				<li><a href="http://latvijas.daba.lv/vardnica/">http://latvijas.daba.lv/vardnica/</a> - bioloģijas terminu vārdnīca</li>
+				<li><a href="https://www.youtube.com/@AKLECTURES/featured">https://www.youtube.com/@AKLECTURES/featured</a> - AK Lectures YouTube (bija arī mājaslapa aklectures.com, bet tai pašlaik nevar piekļūt
+				<br>Atrodami daudz dažādi pietiekami detalizēti video par bioloģijas un citu zinātņu tēmām.
+				</li>
+				<li style="padding-bottom: 0px"><a href="https://newtondesk.com/international-biology-olympiad-ibo-past-papers-questions/">https://newtondesk.com/international-biology-olympiad-ibo-past-papers-questions/</a> - IBO un citu valstu dažu gadu olimpiāžu uzdevumi un atrisinājumi
+				<br>Katru pēdējo divu tekošo gadu IBO uzdevumus nevajadzētu būt iespējams atrast, jo tos nedrīkst publicēt. Tos visticamāk, ka varēs aplūkot tikai IBO gatavošanās nodarbībās.
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>
